@@ -27,6 +27,8 @@ rm Miniconda-3.0.0-Linux-x86_64.sh
 
 --------------------------------------------------------------------
 
+In the terminal, navigate to the directory with this INSTRUCTIONS file.
+
 Now run:
 
 ./setup_environment.sh
