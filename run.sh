@@ -1,7 +1,7 @@
 #!/bin/bash
 
 HERE=$(dirname $(readlink -e $0))
-TOOL_PATH="$HERE:$HERE/tools:$HERE/external/pylearn2/pylearn2/scripts"
+TOOL_PATH="$HERE"
 
 ENV="$(cat "$HERE/.env" 2>/dev/null)"
 if [[ -z "$ENV" || ! -d "$ENV" ]]; then
