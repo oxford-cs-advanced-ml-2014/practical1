@@ -1,5 +1,7 @@
 Follow these steps.  You will only need to do this once.
 
+You can paste into a terminal by pressing ctrl+shift+v .
+
 Download and install miniconda from http://repo.continuum.io/miniconda/ by running the following commands in a terminal window:
 
 wget http://repo.continuum.io/miniconda/Miniconda-3.0.0-Linux-x86_64.sh
