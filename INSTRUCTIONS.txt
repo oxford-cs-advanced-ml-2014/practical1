@@ -2,7 +2,8 @@ Follow these steps.  You will only need to do this once.
 
 You can paste into a terminal by pressing ctrl+shift+v .
 
-Download and install miniconda from http://repo.continuum.io/miniconda/ by running the following commands in a terminal window:
+Download and install miniconda from http://repo.continuum.io/miniconda/ by 
+running the following commands in a terminal window:
 
 wget http://repo.continuum.io/miniconda/Miniconda-3.0.0-Linux-x86_64.sh
 bash Miniconda-3.0.0-Linux-x86_64.sh
@@ -37,13 +38,15 @@ git clone https://github.com/oxford-cs-advanced-ml-2014/practical1.git
 cd practical1
 ./setup_environment.sh
 
-This will build a local python environment with the dependencies needed for the practical.
+This will build a local python environment with the dependencies needed for the 
+practical.
 
 Run the example code with:
 
 ./run.sh alternating_ridge_regression.py
 
-This should output a bunch of numbers nad then fail with a NameError.  If this happens then you have set up everything correctly.
+This should output a bunch of numbers nad then fail with a NameError.  If this 
+happens then you have set up everything correctly.
 
 If you move to a new machine you will need to run setup_environment.sh again.
 
