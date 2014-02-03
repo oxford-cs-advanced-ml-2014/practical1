@@ -12,9 +12,9 @@ wget http://repo.continuum.io/miniconda/Miniconda-3.0.0-Linux-x86_64.sh
 bash Miniconda-3.0.0-Linux-x86_64.sh
 ```
 
-Say yes to the license.
-Use the default location for the install (just press enter).
-Say yes when it asks about prepending to your PATH.
+- Say yes to the license.
+- Use the default location for the install (just press enter).
+- Say yes when it asks about prepending to your PATH.
 
 Close the terminal and open a new one.
 
@@ -30,9 +30,7 @@ If conda is found then you did the previous steps correctly.  If you see:
 /usr/bin/which: no conda in ( lots of stuff )
 ```
 
-then you did something wrong and you need to fix it before continuing.
-
-Once conda is properly installed you can delete the install file by running:
+then you did something wrong and you need to fix it before continuing.  Once conda is properly installed you can delete the install file by running:
 
 ```bash
 rm Miniconda-3.0.0-Linux-x86_64.sh
@@ -59,7 +57,7 @@ Run the example code with:
 ./run.sh alternating_ridge_regression.py
 ```
 
-This should output a bunch of numbers nad then fail with a NameError.  If this 
+This should output a bunch of numbers and then fail with a NameError.  If this 
 happens then you have set up everything correctly.
 
 If you move to a new machine you will need to run setup_environment.sh again.
