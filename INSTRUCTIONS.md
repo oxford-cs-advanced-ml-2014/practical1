@@ -64,3 +64,7 @@ If you move to a new machine you will need to run setup_environment.sh again.
 
 You always need to run python code for the practicals through run.sh
 
+# What next?
+
+The instructions for the practical are available here: https://www.cs.ox.ac.uk/teaching/materials13-14/advml/practical1.pdf
+
