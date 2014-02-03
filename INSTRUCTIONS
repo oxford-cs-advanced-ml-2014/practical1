@@ -29,13 +29,15 @@ rm Miniconda-3.0.0-Linux-x86_64.sh
 
 --------------------------------------------------------------------
 
-In the terminal, navigate to the directory with this INSTRUCTIONS file.
+Open a terminal and navigate to wherever you want to store your code.
 
-Now run:
+Run the following commands:
 
+git clone https://github.com/oxford-cs-advanced-ml-2014/practical1.git
+cd practical1
 ./setup_environment.sh
 
-to build a local python environment for the practical.
+This will build a local python environment with the dependencies needed for the practical.
 
 Run the example code with:
 
