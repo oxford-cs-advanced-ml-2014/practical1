@@ -1,4 +1,4 @@
-Follow these steps.  You will only need to do this once.
+Follow these steps.  You will only need to do this first part once.
 
 You can paste into a terminal by pressing ctrl+shift+v .
 
