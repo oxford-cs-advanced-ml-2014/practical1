@@ -4,7 +4,7 @@ set -e
 
 ROOT=$(dirname $(readlink -e $0))
 LOCAL_MACHINE_SCRATCH_SPACE=/home/scratch
-ENV="$(mktemp -u -d -p "$LOCAL_MACHINE_SCRATCH_SPACE" "conda_env.$USER.XXXXXXXXXXXX")"
+ENV="$(mktemp -u -d -p "$LOCAL_MACHINE_SCRATCH_SPACE" "conda_env.$USER.XXXXXXXXXXXX")/conda"
 
 function safe_call {
     # usage:
